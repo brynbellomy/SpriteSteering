@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486D2AEFC93B9F533E2924DE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C0ED8F4A32B4BB0F11F1AC8 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9BE2CB03A7AE7C2F4AE777C7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C0ED8F4A32B4BB0F11F1AC8 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C5AAAD631A5577CF00F1DBFC /* SteeringHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AAAD621A5577CF00F1DBFC /* SteeringHelpers.swift */; };
+		C5AE14751A53B9340043FE20 /* SpriteSteering.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AE14741A53B9340043FE20 /* SpriteSteering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5AE147B1A53B9340043FE20 /* SpriteSteering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AE146F1A53B9340043FE20 /* SpriteSteering.framework */; };
+		C5AE14821A53B9340043FE20 /* SpriteSteeringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE14811A53B9340043FE20 /* SpriteSteeringTests.swift */; };
+		C5AE148F1A53BB6D0043FE20 /* DefaultSteeringBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE148C1A53BB6D0043FE20 /* DefaultSteeringBehavior.swift */; };
+		C5AE14901A53BB6D0043FE20 /* SteeringController+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE148D1A53BB6D0043FE20 /* SteeringController+Debug.swift */; };
+		C5AE14911A53BB6D0043FE20 /* SteeringController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE148E1A53BB6D0043FE20 /* SteeringController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5AE147C1A53B9340043FE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5AE14661A53B9340043FE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AE146E1A53B9340043FE20;
+			remoteInfo = SpriteSteering;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0654D49210FB2C4936713E48 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7C0ED8F4A32B4BB0F11F1AC8 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F9546788DE8DE141E17D75 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C5AAAD621A5577CF00F1DBFC /* SteeringHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SteeringHelpers.swift; sourceTree = "<group>"; };
+		C5AE146F1A53B9340043FE20 /* SpriteSteering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpriteSteering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AE14731A53B9340043FE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AE14741A53B9340043FE20 /* SpriteSteering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteSteering.h; sourceTree = "<group>"; };
+		C5AE147A1A53B9340043FE20 /* SpriteSteeringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteSteeringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AE14801A53B9340043FE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AE14811A53B9340043FE20 /* SpriteSteeringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteSteeringTests.swift; sourceTree = "<group>"; };
+		C5AE148C1A53BB6D0043FE20 /* DefaultSteeringBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSteeringBehavior.swift; sourceTree = "<group>"; };
+		C5AE148D1A53BB6D0043FE20 /* SteeringController+Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SteeringController+Debug.swift"; sourceTree = "<group>"; };
+		C5AE148E1A53BB6D0043FE20 /* SteeringController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SteeringController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5AE146B1A53B9340043FE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE2CB03A7AE7C2F4AE777C7 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AE14771A53B9340043FE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AE147B1A53B9340043FE20 /* SpriteSteering.framework in Frameworks */,
+				486D2AEFC93B9F533E2924DE /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423CC0F56DBFF8C8CED34C25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C0ED8F4A32B4BB0F11F1AC8 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CFDC3588A0A8D276A297FF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0654D49210FB2C4936713E48 /* Pods.debug.xcconfig */,
+				A0F9546788DE8DE141E17D75 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5AE14651A53B9340043FE20 = {
+			isa = PBXGroup;
+			children = (
+				C5AE148B1A53BB6D0043FE20 /* Classes */,
+				C5AE14711A53B9340043FE20 /* SpriteSteering */,
+				C5AE147E1A53B9340043FE20 /* SpriteSteeringTests */,
+				C5AE14701A53B9340043FE20 /* Products */,
+				8CFDC3588A0A8D276A297FF0 /* Pods */,
+				423CC0F56DBFF8C8CED34C25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5AE14701A53B9340043FE20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5AE146F1A53B9340043FE20 /* SpriteSteering.framework */,
+				C5AE147A1A53B9340043FE20 /* SpriteSteeringTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5AE14711A53B9340043FE20 /* SpriteSteering */ = {
+			isa = PBXGroup;
+			children = (
+				C5AE14741A53B9340043FE20 /* SpriteSteering.h */,
+				C5AE14721A53B9340043FE20 /* Supporting Files */,
+			);
+			path = SpriteSteering;
+			sourceTree = "<group>";
+		};
+		C5AE14721A53B9340043FE20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5AE14731A53B9340043FE20 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5AE147E1A53B9340043FE20 /* SpriteSteeringTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5AE14811A53B9340043FE20 /* SpriteSteeringTests.swift */,
+				C5AE147F1A53B9340043FE20 /* Supporting Files */,
+			);
+			path = SpriteSteeringTests;
+			sourceTree = "<group>";
+		};
+		C5AE147F1A53B9340043FE20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5AE14801A53B9340043FE20 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5AE148B1A53BB6D0043FE20 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C5AE148C1A53BB6D0043FE20 /* DefaultSteeringBehavior.swift */,
+				C5AE148D1A53BB6D0043FE20 /* SteeringController+Debug.swift */,
+				C5AE148E1A53BB6D0043FE20 /* SteeringController.swift */,
+				C5AAAD621A5577CF00F1DBFC /* SteeringHelpers.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C5AE146C1A53B9340043FE20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AE14751A53B9340043FE20 /* SpriteSteering.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C5AE146E1A53B9340043FE20 /* SpriteSteering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AE14851A53B9340043FE20 /* Build configuration list for PBXNativeTarget "SpriteSteering" */;
+			buildPhases = (
+				B12B3A406375BD71BE9C97CE /* Check Pods Manifest.lock */,
+				C5AE146A1A53B9340043FE20 /* Sources */,
+				C5AE146B1A53B9340043FE20 /* Frameworks */,
+				C5AE146C1A53B9340043FE20 /* Headers */,
+				C5AE146D1A53B9340043FE20 /* Resources */,
+				33A4FE7D2B6C423FEE2855BE /* Embed Pods Frameworks */,
+				061B967ACB5B28B0DFFA858D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteSteering;
+			productName = SpriteSteering;
+			productReference = C5AE146F1A53B9340043FE20 /* SpriteSteering.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5AE14791A53B9340043FE20 /* SpriteSteeringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AE14881A53B9340043FE20 /* Build configuration list for PBXNativeTarget "SpriteSteeringTests" */;
+			buildPhases = (
+				6F8789C957C81C87A858123A /* Check Pods Manifest.lock */,
+				C5AE14761A53B9340043FE20 /* Sources */,
+				C5AE14771A53B9340043FE20 /* Frameworks */,
+				C5AE14781A53B9340043FE20 /* Resources */,
+				DD9D765F2D838C22E84A43FF /* Embed Pods Frameworks */,
+				B3CD8B5154182B2C50ED7F85 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5AE147D1A53B9340043FE20 /* PBXTargetDependency */,
+			);
+			name = SpriteSteeringTests;
+			productName = SpriteSteeringTests;
+			productReference = C5AE147A1A53B9340043FE20 /* SpriteSteeringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5AE14661A53B9340043FE20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "bryn austin bellomy";
+				TargetAttributes = {
+					C5AE146E1A53B9340043FE20 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C5AE14791A53B9340043FE20 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C5AE14691A53B9340043FE20 /* Build configuration list for PBXProject "SpriteSteering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5AE14651A53B9340043FE20;
+			productRefGroup = C5AE14701A53B9340043FE20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5AE146E1A53B9340043FE20 /* SpriteSteering */,
+				C5AE14791A53B9340043FE20 /* SpriteSteeringTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5AE146D1A53B9340043FE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AE14781A53B9340043FE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		061B967ACB5B28B0DFFA858D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33A4FE7D2B6C423FEE2855BE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F8789C957C81C87A858123A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B12B3A406375BD71BE9C97CE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CD8B5154182B2C50ED7F85 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD9D765F2D838C22E84A43FF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5AE146A1A53B9340043FE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AE14911A53BB6D0043FE20 /* SteeringController.swift in Sources */,
+				C5AAAD631A5577CF00F1DBFC /* SteeringHelpers.swift in Sources */,
+				C5AE14901A53BB6D0043FE20 /* SteeringController+Debug.swift in Sources */,
+				C5AE148F1A53BB6D0043FE20 /* DefaultSteeringBehavior.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AE14761A53B9340043FE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AE14821A53B9340043FE20 /* SpriteSteeringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5AE147D1A53B9340043FE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5AE146E1A53B9340043FE20 /* SpriteSteering */;
+			targetProxy = C5AE147C1A53B9340043FE20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5AE14831A53B9340043FE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5AE14841A53B9340043FE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5AE14861A53B9340043FE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0654D49210FB2C4936713E48 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SpriteSteering/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5AE14871A53B9340043FE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F9546788DE8DE141E17D75 /* Pods.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SpriteSteering/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C5AE14891A53B9340043FE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0654D49210FB2C4936713E48 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpriteSteeringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5AE148A1A53B9340043FE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F9546788DE8DE141E17D75 /* Pods.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpriteSteeringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5AE14691A53B9340043FE20 /* Build configuration list for PBXProject "SpriteSteering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AE14831A53B9340043FE20 /* Debug */,
+				C5AE14841A53B9340043FE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AE14851A53B9340043FE20 /* Build configuration list for PBXNativeTarget "SpriteSteering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AE14861A53B9340043FE20 /* Debug */,
+				C5AE14871A53B9340043FE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AE14881A53B9340043FE20 /* Build configuration list for PBXNativeTarget "SpriteSteeringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AE14891A53B9340043FE20 /* Debug */,
+				C5AE148A1A53B9340043FE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5AE14661A53B9340043FE20 /* Project object */;
+}
